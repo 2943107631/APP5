@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/jianzhi"
+        android:icon="@drawable/jianzhi"
+        android:title="兼职" />
+    <item
+        android:id="@+id/person"
+        android:icon="@drawable/person"
+        android:title="用户" />
+    <item
+        android:id="@+id/hetong"
+        android:icon="@drawable/hetong"
+        android:title="合同" />
+</menu>

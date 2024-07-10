@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_item" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:id="@+id/layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:gravity="start"
+                        android:text="学号"
+                        android:textSize="16dp" />
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/userId"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:focusable="false"
+                        android:gravity="right|center_vertical"
+                        android:hint="请输入姓名"
+                        android:inputType="text"
+                        android:paddingRight="20dp"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <include layout="@layout/xiahuaxian" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:gravity="start"
+                        android:text="姓名"
+                        android:textSize="16dp" />
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/username"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:focusable="false"
+                        android:gravity="right|center_vertical"
+                        android:hint="请输入姓名"
+                        android:inputType="text"
+                        android:paddingRight="20dp"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <include layout="@layout/xiahuaxian" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:gravity="start"
+                        android:text="专业"
+                        android:textSize="16dp" />
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/speciality"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:focusable="false"
+                        android:gravity="right|center_vertical"
+                        android:hint="请输入专业"
+                        android:inputType="text"
+                        android:paddingRight="20dp"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <include layout="@layout/xiahuaxian" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:gravity="start"
+                        android:text="求职状态"
+                        android:textSize="16dp" />
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/qiuzhizhuangtai"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:gravity="right|center_vertical"
+                        android:hint="请输入求职状态"
+                        android:inputType="text"
+                        android:paddingRight="20dp"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <include layout="@layout/xiahuaxian" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:gravity="start"
+                        android:text="个人经历"
+                        android:textSize="16dp" />
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/gerenjingli"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:gravity="right|center_vertical"
+                        android:hint="请输入个人经历"
+                        android:maxLines="5"
+                        android:paddingRight="20dp"
+                        android:text=""
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <include layout="@layout/xiahuaxian" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:gravity="start"
+                        android:text="自我评价"
+                        android:textSize="16dp" />
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/ziwopingjia"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:gravity="right|center_vertical"
+                        android:hint="请输入自我评价"
+                        android:maxLines="5"
+                        android:paddingRight="20dp"
+                        android:text=""
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <include layout="@layout/xiahuaxian" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:gravity="start"
+                        android:text="期望薪资"
+                        android:textSize="16dp" />
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/price"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:gravity="right|center_vertical"
+                        android:hint="请输入期望薪资"
+                        android:inputType="text"
+                        android:paddingRight="20dp"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <include layout="@layout/xiahuaxian" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/save"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/btn_bg"
+                    android:text="保存"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/add"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_bg"
+                android:text="添加求职信息"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
